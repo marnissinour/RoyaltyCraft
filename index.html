@@ -113,7 +113,9 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img src="img/pexels-ron-lach-8100067.jpg" class="img-fluid" alt="First slide">
+                        <video muted autoplay class="img-fluid" alt="First slide">
+                            <source src="img/3.mp4" type=""  ></video>
+                      
                         
                         <div class="carousel-caption">
                             <div class="container carousel-content">
@@ -128,7 +130,10 @@
                     <div class="carousel-item">
                        
                        
-                        <img src="img/pexels-ron-lach-8102677.jpg" class="img-fluid" alt="Second slide">
+                        
+
+                        <video muted autoplay class="img-fluid" alt="Second slide">
+                            <source src="img/1.mp4" type=""  ></video>
 
                         <div class="carousel-caption">
                             <div class="container carousel-content">
@@ -531,7 +536,7 @@
 
 
         <!-- Blog Start -->
-        <div class="container-fluid blog py-5 mb-5" id="testimonial">
+        <div class="container-fluid blog py-5 mb-5" id="testimonial" >
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Testimonial</h5>
@@ -568,28 +573,12 @@
                         </div>
                     </div>
                 </div>
+                
 			                </div>
 
         <!-- Blog End -->
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                // Get all video elements
-                var videos = document.querySelectorAll('video');
-    
-                // Add event listeners to each video
-                videos.forEach(function (video) {
-                    video.addEventListener('play', function () {
-                        // Pause all other videos when one starts playing
-                        videos.forEach(function (otherVideo) {
-                            if (otherVideo !== video) {
-                                otherVideo.pause();
-                            }
-                        });
-                    });
-                });
-            });
-        </script>
+       
         
 
        

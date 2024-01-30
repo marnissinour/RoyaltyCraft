@@ -277,6 +277,7 @@
 
     .carousel-item h1 {
         font-size: 40px !important;
+       
     }
 
     .carousel-item p {
@@ -670,6 +671,7 @@
 }
 
 /*** Footer End ***/
+
 h1,
 h2,
 h3,
@@ -678,3 +680,29 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
 }
+/* Add this CSS to your existing styles or create a new style block */
+
+
+  
+  .blog-item video {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-item:hover video {
+    transform: scale(1.05);
+    border: 3px solid rgba(3, 43, 243, 0.8); /* Change the border color as per your preference */
+  }
+  
+  .blog-item span {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .blog-item:hover span {
+    background-color: rgba(3, 43, 243, 0.8); /* Change the background color for the title on hover */
+  }
+  
+  /* Optionally, you can add a box shadow for a more pronounced effect */
+  .blog-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
